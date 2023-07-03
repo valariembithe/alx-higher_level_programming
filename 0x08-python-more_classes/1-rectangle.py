@@ -1,4 +1,9 @@
 #!/usr/bin/python3
+"""
+    contains class rectangle
+    with private instances
+"""
+
 
 class Rectangle:
     """ a class that defines Rectangle
