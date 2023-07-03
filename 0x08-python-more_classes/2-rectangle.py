@@ -1,4 +1,9 @@
 #!/usr/bin/python3
+"""
+    class that defines rectangle
+    private instances width and height
+"""
+
 
 class Rectangle:
     """ a class that defines Rectangle
@@ -41,6 +46,7 @@ class Rectangle:
     def area(self):
         """ return area of rectangle """
         return (self.__width * self.__height)
+
     def perimeter(self):
         """ return perimeter of a rectangle """
         if self.__width == 0 or self.__height == 0:
