@@ -6,4 +6,3 @@ class LockedClass:
     """ protect first name """
 
     __slots__ = "first_name"
-
