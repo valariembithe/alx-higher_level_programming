@@ -21,7 +21,7 @@ if __name__ == '__main__':
             FROM
                 states
             WHERE
-                name LIKE BINARY %(name)
+                name LIKE BINARY %(name)s
             ORDER BY 
                 states.id ASC
         """, {
