@@ -8,6 +8,7 @@
 
 import requests
 import sys
+
 if __name__ == "__main__":
     letter = "" if len(sys.argv) == 1 else sys.argv[1]
     load = {"q": letter} 
