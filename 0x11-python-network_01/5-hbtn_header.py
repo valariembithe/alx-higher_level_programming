@@ -3,6 +3,8 @@
     sends a request to the URL 
     displays the value of the variable X-Request-Id in the response header
 """
+
+
 import sys
 import requests
 
